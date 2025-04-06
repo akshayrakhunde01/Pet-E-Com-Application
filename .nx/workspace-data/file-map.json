@@ -43,20 +43,16 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".DS_Store",
-        "hash": "806122141180681827"
-      },
-      {
         "file": ".gitignore",
-        "hash": "7663861978715868291"
+        "hash": "8811818366992480877"
       },
       {
         "file": "README.md",
         "hash": "8223029661903275587"
       },
       {
-        "file": "apps/.DS_Store",
-        "hash": "11489531836485160925"
+        "file": "dev.readme.md",
+        "hash": "18238833394537981802"
       },
       {
         "file": "eslint.config.mjs",
@@ -143,7 +139,7 @@
       "@pet-ecom-app/pet-ecom-app-be": [
         {
           "file": "apps/pet-ecom-app-be/.gitignore",
-          "hash": "12975187279384539528"
+          "hash": "2142861663275144635"
         },
         {
           "file": "apps/pet-ecom-app-be/.spec.swcrc",
