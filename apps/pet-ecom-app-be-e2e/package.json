@@ -1,0 +1,25 @@
+{
+  "name": "@pet-ecom-app/pet-ecom-app-be-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@pet-ecom-app/pet-ecom-app-be"
+    ],
+    "targets": {
+      "e2e": {
+        "executor": "@nx/jest:jest",
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ],
+        "options": {
+          "jestConfig": "apps/pet-ecom-app-be-e2e/jest.config.ts",
+          "passWithNoTests": true
+        },
+        "dependsOn": [
+          "@pet-ecom-app/pet-ecom-app-be:build"
+        ]
+      }
+    }
+  }
+}
