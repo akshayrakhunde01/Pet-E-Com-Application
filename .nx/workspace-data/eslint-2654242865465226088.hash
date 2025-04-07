@@ -89,5 +89,1126 @@
   "5498819998266864613": {},
   "1742252886868820282": {},
   "7946392893092056870": {},
-  "1053083322822449381": {}
+  "1053083322822449381": {},
+  "8630780964485912456": {},
+  "9327706559859466644": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "7720106392597238396": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "13343601545921460976": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "17993294742115427521": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "2363483362478100713": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "17591498943403232883": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "6682908782072593663": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "5267148776375934388": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "460631783438827569": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "7627888438036281624": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "15634661375277680637": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "513585744236412880": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "181369498501283875": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "17090149904336331529": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "57616755800284669": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "8227432954524164383": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "13616436262985952116": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "9089702694789738520": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "11916352298367733762": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "7667793475997284207": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "4382048881457320196": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "14701072614531758030": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "3194491251197128822": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "4324643774850171179": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "9639800269662634492": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "16811959181639310956": {
+    "apps/pet-ecom-app-be": {
+      "targets": {
+        "lint": {
+          "command": "eslint .",
+          "cache": true,
+          "options": {
+            "cwd": "apps/pet-ecom-app-be"
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{projectRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "6452867001588018552": {
+    ".": {
+      "targets": {
+        "lint": {
+          "command": "eslint ./src",
+          "cache": true,
+          "options": {
+            "cwd": "."
+          },
+          "inputs": [
+            "default",
+            "^default",
+            "{workspaceRoot}/eslint.config.mjs",
+            "{workspaceRoot}/tools/eslint-rules/**/*",
+            {
+              "externalDependencies": [
+                "eslint"
+              ]
+            }
+          ],
+          "outputs": [
+            "{options.outputFile}"
+          ],
+          "metadata": {
+            "technologies": [
+              "eslint"
+            ],
+            "description": "Runs ESLint on project",
+            "help": {
+              "command": "npx eslint --help",
+              "example": {
+                "options": {
+                  "max-warnings": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

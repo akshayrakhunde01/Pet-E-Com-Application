@@ -41,57 +41,154 @@
     }
   ],
   "fileMap": {
-    "nonProjectFiles": [
-      {
-        "file": "packages/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "8900268571896142108"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "385806084574494275"
-      },
-      {
-        "file": "dev.readme.md",
-        "hash": "18238833394537981802"
-      },
-      {
-        "file": "nx.json",
-        "hash": "11589840179755979534"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "2471120707422920003"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8811818366992480877"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
-        "file": "README.md",
-        "hash": "8223029661903275587"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": "package.json",
-        "hash": "11208703962980424789"
-      }
-    ],
+    "nonProjectFiles": [],
     "projectFileMap": {
+      "@pet-ecom-app/source": [
+        {
+          "file": ".gitignore",
+          "hash": "8811818366992480877"
+        },
+        {
+          "file": "README.md",
+          "hash": "8223029661903275587"
+        },
+        {
+          "file": "dev.readme.md",
+          "hash": "18238833394537981802"
+        },
+        {
+          "file": "eslint.config.mjs",
+          "hash": "3462096019013144053",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "6870352021923392442",
+          "deps": [
+            "npm:jest",
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "11589840179755979534"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "2471120707422920003"
+        },
+        {
+          "file": "package.json",
+          "hash": "11208703962980424789",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/nest",
+            "npm:@nx/node",
+            "npm:@nx/web",
+            "npm:@nx/webpack",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@swc/jest",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:jest",
+            "npm:jest-environment-node",
+            "npm:nx",
+            "npm:prettier",
+            "npm:prisma",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:webpack-cli",
+            "npm:@apollo/server",
+            "npm:@nestjs/apollo",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/graphql",
+            "npm:@nestjs/platform-express",
+            "npm:axios",
+            "npm:graphql",
+            "npm:reflect-metadata",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "packages/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "8900268571896142108"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "385806084574494275"
+        }
+      ],
+      "@pet-ecom-app/pet-ecom-app-be-e2e": [
+        {
+          "file": "apps/pet-ecom-app-be-e2e/.spec.swcrc",
+          "hash": "18201067170784284381"
+        },
+        {
+          "file": "apps/pet-ecom-app-be-e2e/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "apps/pet-ecom-app-be-e2e/jest.config.ts",
+          "hash": "9768261591053371941"
+        },
+        {
+          "file": "apps/pet-ecom-app-be-e2e/package.json",
+          "hash": "6396392206001009585"
+        },
+        {
+          "file": "apps/pet-ecom-app-be-e2e/src/pet-ecom-app-be/pet-ecom-app-be.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/pet-ecom-app-be-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/pet-ecom-app-be-e2e/src/support/test-setup.ts",
+          "hash": "15521797170623961900",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be-e2e/tsconfig.json",
+          "hash": "4598392802772244168"
+        }
+      ],
       "@pet-ecom-app/pet-ecom-app-be": [
         {
           "file": "apps/pet-ecom-app-be/.gitignore",
@@ -100,6 +197,10 @@
         {
           "file": "apps/pet-ecom-app-be/.spec.swcrc",
           "hash": "18201067170784284381"
+        },
+        {
+          "file": "apps/pet-ecom-app-be/apps/pet-ecom-app-be/src/schema.gql",
+          "hash": "3331731932234294597"
         },
         {
           "file": "apps/pet-ecom-app-be/eslint.config.mjs",
@@ -155,9 +256,11 @@
         },
         {
           "file": "apps/pet-ecom-app-be/src/app/app.module.ts",
-          "hash": "11673476679848632172",
+          "hash": "318550137439785175",
           "deps": [
-            "npm:@nestjs/common"
+            "npm:@nestjs/common",
+            "npm:@nestjs/graphql",
+            "npm:@nestjs/apollo"
           ]
         },
         {
@@ -170,6 +273,62 @@
         {
           "file": "apps/pet-ecom-app-be/src/app/app.service.ts",
           "hash": "1359687202866498045",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be/src/app/products/dto/create-product.input.ts",
+          "hash": "11492287315979847452",
+          "deps": [
+            "npm:@nestjs/graphql"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be/src/app/products/dto/update-product.input.ts",
+          "hash": "4298671191801041506",
+          "deps": [
+            "npm:@nestjs/graphql"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be/src/app/products/entities/product.entity.ts",
+          "hash": "15374592170692712406",
+          "deps": [
+            "npm:@nestjs/graphql"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be/src/app/products/products.module.ts",
+          "hash": "7405547549144500809",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be/src/app/products/products.resolver.spec.ts",
+          "hash": "645246980248011059",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be/src/app/products/products.resolver.ts",
+          "hash": "4188627233764345699",
+          "deps": [
+            "npm:@nestjs/graphql"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be/src/app/products/products.service.spec.ts",
+          "hash": "12078006542631247963",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/pet-ecom-app-be/src/app/products/products.service.ts",
+          "hash": "17694335355438754843",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -204,50 +363,6 @@
           "deps": [
             "npm:@nx/webpack"
           ]
-        }
-      ],
-      "@pet-ecom-app/pet-ecom-app-be-e2e": [
-        {
-          "file": "apps/pet-ecom-app-be-e2e/.spec.swcrc",
-          "hash": "18201067170784284381"
-        },
-        {
-          "file": "apps/pet-ecom-app-be-e2e/eslint.config.mjs",
-          "hash": "2624537849564014525"
-        },
-        {
-          "file": "apps/pet-ecom-app-be-e2e/jest.config.ts",
-          "hash": "9768261591053371941"
-        },
-        {
-          "file": "apps/pet-ecom-app-be-e2e/package.json",
-          "hash": "6396392206001009585"
-        },
-        {
-          "file": "apps/pet-ecom-app-be-e2e/src/pet-ecom-app-be/pet-ecom-app-be.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/pet-ecom-app-be-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "apps/pet-ecom-app-be-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "apps/pet-ecom-app-be-e2e/src/support/test-setup.ts",
-          "hash": "15521797170623961900",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/pet-ecom-app-be-e2e/tsconfig.json",
-          "hash": "4598392802772244168"
         }
       ]
     }

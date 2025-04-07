@@ -39,5 +39,538 @@
         ]
       }
     }
+  },
+  "2381669653836834239": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "17345038210701143054": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "11033445694117786720": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "5821961229043179297": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "9306212014036528466": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "1642185936253622398": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "10672459063390132715": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "4645143627138894834": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "9573035421985063034": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "14597437172739632664": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "5447689763571215364": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "15227645919887884959": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
+  },
+  "3652765842179243875": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "apps/pet-ecom-app-be",
+          "env": {
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"nodenext\",\"customConditions\":null}"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests",
+          "help": {
+            "command": "npx jest --help",
+            "example": {
+              "options": {
+                "coverage": true
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          "{workspaceRoot}/jest.preset.js",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ]
+      }
+    }
   }
 }

@@ -424,6 +424,56 @@
         ],
         "implicitDependencies": []
       }
+    },
+    "@pet-ecom-app/source": {
+      "name": "@pet-ecom-app/source",
+      "type": "lib",
+      "data": {
+        "root": ".",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": ".",
+              "command": "eslint ./src"
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "@pet-ecom-app/source",
+        "implicitDependencies": [],
+        "tags": []
+      }
     }
   },
   "externalNodes": {
@@ -10980,6 +11030,16 @@
       },
       {
         "source": "@pet-ecom-app/pet-ecom-app-be",
+        "target": "npm:@nestjs/graphql",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/pet-ecom-app-be",
+        "target": "npm:@nestjs/apollo",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/pet-ecom-app-be",
         "target": "npm:@nestjs/core",
         "type": "static"
       },
@@ -10988,9 +11048,211 @@
         "target": "npm:@nx/webpack",
         "type": "static"
       }
+    ],
+    "@pet-ecom-app/source": [
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nx/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:jest",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nx/jest",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@eslint/js",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nestjs/schematics",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nestjs/testing",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nx/eslint",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nx/js",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nx/nest",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nx/node",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nx/web",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nx/webpack",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@swc-node/register",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@swc/core",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@swc/helpers",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@swc/jest",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@types/jest",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@types/node",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:eslint-config-prettier",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:jest-environment-node",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:nx",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:prettier",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:prisma",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:ts-jest",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:ts-node",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:tslib",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:typescript-eslint",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:webpack-cli",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@apollo/server",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nestjs/apollo",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nestjs/core",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nestjs/graphql",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:@nestjs/platform-express",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:axios",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:graphql",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:reflect-metadata",
+        "type": "static"
+      },
+      {
+        "source": "@pet-ecom-app/source",
+        "target": "npm:rxjs",
+        "type": "static"
+      }
     ]
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1744052533781
+  "computedAt": 1744054314722
 }
